@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Proyectos</h1>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <%= image_tag "proy1.jpg", size: "256x121", class: "card-img-top", alt:"Proyecto 1" %>
+        <div class="card-body">
+          <h5 class="card-title">Ricomida</h5>
+          <p class="card-text">Sitio tipo restaurant</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <%= image_tag "proy2.jpg", size: "256x121", class: "card-img-top", alt:"Proyecto 2" %>
+        <div class="card-body">
+          <h5 class="card-title">Iguana</h5>
+          <p class="card-text">Sitio dedicado a las iguanas</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <%= image_tag "proy3.jpg", size: "256x121", class: "card-img-top", alt:"Proyecto 3" %>
+        <div class="card-body">
+          <h5 class="card-title">Recorre Chile</h5>
+          <p class="card-text">Sitio de agencia de viajes</p>
+        </div>
+      </div>
+    </div>
+    <%= link_to 'Ver más', root_path, class: 'btn-ver-mas' %>
+  </div>
+</div>
